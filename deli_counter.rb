@@ -8,3 +8,4 @@ def line(array)
   end
   puts "The line is currently: " + count.join
 end
+end
