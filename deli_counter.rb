@@ -4,7 +4,7 @@ def line(array)
   else array.length > 1
     count = []
     array.each_with_index do |name, index|
-      count << (" #{index+1}. #{name}")
+      count << ("#{index+1}. #{name}")
   end
   puts "The line is currently: " + count.join
   end
