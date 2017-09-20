@@ -18,4 +18,4 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
-    puts "This line is empty."
+    puts "The line is empty."
