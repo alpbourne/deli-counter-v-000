@@ -22,3 +22,4 @@ def now_serving(katz_deli)
   else katz_deli.length > 1
     name = katz_deli.shift
     puts "Currently serving #{name}"
+    katz_deli.pop
