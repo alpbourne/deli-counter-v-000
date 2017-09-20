@@ -7,5 +7,6 @@ def line(array)
       count << ("#{index}. #{name}")
   end
   puts "The line is currently: " + count.join
+end
 
 def take_a_number
