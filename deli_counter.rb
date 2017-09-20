@@ -5,6 +5,7 @@ def line(array)
     count = []
     array.each_with_index do |name, index|
       count << ("#{index}. #{name}")
-
+  end 
+  
 
 def take_a_number
