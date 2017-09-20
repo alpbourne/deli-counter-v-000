@@ -5,7 +5,7 @@ def line(array)
     count = []
     array.each_with_index do |name, index|
       count << ("#{index}. #{name}")
-  end 
-  
+  end
+  puts "The line is currently: " + count.join
 
 def take_a_number
